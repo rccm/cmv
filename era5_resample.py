@@ -86,7 +86,7 @@ def main():
     print(f"MPI ranks: {size}, current rank: {rank}")
 
     # File lists
-    era_files = sorted(glob.glob("/data/gdi/f/gzhao1/era/eradaily*_2021_02_v.nc"))
+    era_files = sorted(glob.glob("/data/gdi/f/gzhao1/era/eradaily*.nc"))
     cmv_pattern = "/data/gdi/c/gzhao1/arctic/data/misrcmv/l3/M*{mon}{year}*.nc"
     output_dir = Path("/data/gdi/c/gzhao1/cmv/era5/resampled")
     output_dir.mkdir(parents=True, exist_ok=True)
