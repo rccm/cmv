@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 u0_umax_analysis.py
+The script is used to generate figure 2 for the Nature manuscript
 
 Calculate linear trends and correlations between U0 and Umax indices
 for CMV, ERA5_MS, and ERA5_All datasets. Produces time series anomaly
