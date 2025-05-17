@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-zonal_trend_analysis.py
+Generate figur 1 for the Nature manuscript
 
 Script to analyze and plot zonal trends in wind speed and components
 using MISR and ERA5 datasets, applying FDR correction and visualizing
 altitude profiles.
+
+Author: Guangyu Zhao 02/13/2025
 """
 
 import numpy as np
